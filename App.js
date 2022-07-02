@@ -43,7 +43,7 @@ export default function App() {
       case 'DEL':
         setCurrentNumber(currentNumber.substring(0, (currentNumber.length - 1)))
         return
-      case 'LIMPAR': // Limpa todo o conteúdo
+      case 'LIMPAR': //Limpa todo o conteúdo
         setLastNumber("") 
         setCurrentNumber("") 
         return
